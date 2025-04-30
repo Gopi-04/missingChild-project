@@ -70,8 +70,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 Let me know if you'd like me to generate the `requirements.txt` content too!
-```
-
----
-
-Let me know if your project has a different filename or structure and I’ll adjust the instructions accordingly.
