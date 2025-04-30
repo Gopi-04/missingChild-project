@@ -14,7 +14,7 @@ This project aims to assist in the identification and tracking of missing childr
 
 ## 🛠 Technologies Used
 - Python  
-- YOLOv8 (Ultralytics)  
+- YOLOv8 
 - OpenCV  
 - NumPy  
 - Roboflow  
