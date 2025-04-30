@@ -35,36 +35,32 @@ This project aims to assist in the identification and tracking of missing childr
    ```
 
 3. **Download the YOLOv8 Model**
-   - Place the trained `.pt` file in the project directory.
-   - You can train or export from [Roboflow](https://roboflow.com).
+   - Place the trained `.pt` file (e.g., `child_model.pt`) in the project directory.
+   - You can train or export the model using [Roboflow](https://roboflow.com).
 
 4. **Run the Script**
    ```bash
-   python detect.py --source http://<IP>:8080/video --weights child_model.pt --conf 0.5
+   python detect.py --source http://<YOUR_IP>:8080/video --weights child_model.pt --conf 0.5
    ```
-
-   Replace `<IP>` with the actual IP shown in your IP Webcam app.
+   Replace `<YOUR_IP>` with the IP address shown in your IP Webcam app.
 
 ## 📷 Camera Setup
 - Install the **IP Webcam** app from the Play Store.
-- Start the server and note the IP address (e.g., `http://192.168.1.100:8080`).
-- Ensure the PC and phone are connected to the **same Wi-Fi network**.
+- Launch the server and note the streaming URL (e.g., `http://192.168.1.100:8080/video`).
+- Ensure both the phone and the PC are connected to the same Wi-Fi network.
 
 ## 🧠 Model Training
-- Data prepared and labeled using Roboflow.
-- YOLOv8 model trained for object detection on child images.
+- Images labeled and dataset prepared using Roboflow.
+- Trained a YOLOv8 object detection model optimized for recognizing children from various angles and lighting conditions.
 
-## 📎 Future Enhancements
-- Add facial recognition for better identification.
-- Build a web-based dashboard to view results and logs.
-- Integrate alert system for authorities or guardians.
+## 🔮 Future Enhancements
+- Integrate face recognition for improved accuracy.
+- Add a web-based dashboard for live monitoring and alerting.
+- Implement logging and auto-notification to guardians or authorities.
 
-## 🙌 Contribution
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+## 🤝 Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Let me know if you'd like me to generate the `requirements.txt` content too!
+```
