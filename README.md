@@ -6,14 +6,14 @@ A real-time **Child Tracking and Recognition System** using Machine Learning and
 ## 📌 Overview
 This project aims to assist in the identification and tracking of missing children using live camera feeds and machine learning. Leveraging YOLOv8, OpenCV, and an Android-based IP Webcam, the system can detect and recognize children in real-time from video streams.
 
-##🚀 Features
+## 🚀 Features
 - Real-time object detection using YOLOv8
 - Live IP camera integration via mobile phone
 - Bounding box and label rendering
 - Distance estimation from camera to subject
 - Custom model training via Roboflow
 
-##🛠 Technologies Used
+## 🛠 Technologies Used
 - Python  
 - YOLOv8 (Ultralytics)  
 - OpenCV  
