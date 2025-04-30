@@ -1,4 +1,3 @@
-```markdown
 # MISSING CHILD TRACKING AND RECOGNITION SYSTEM USING MACHINE LEARNING.
 
 A real-time **Child Tracking and Recognition System** using Machine Learning and IP Webcam.
